@@ -13,10 +13,10 @@ docker run -it -e GITHUB_TOKEN=<insert-oauth-token> \
 ```
 
 ## Todo
-- log coloring
-- log file creation
-- cron/scheduling setup
-- only scraping first/last 100 - change to all
-- fix dockerfile (multi-stage) and pass values better
+- [ ] log coloring
+- [ ] log file creation
+- [ ] cron/scheduling setup
+- [ ] only scraping first/last 100 - change to all
+- [ ] fix dockerfile (multi-stage) and pass values better
 
 [github-token]: https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
