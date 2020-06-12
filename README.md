@@ -1,4 +1,5 @@
 # BackHub
+[![Go Report](https://goreportcard.com/badge/github.com/schuermannator/backhub)](https://goreportcard.com/report/github.com/schuermannator/backhub)  
 Backup your whole GitHub:
 1. Generate personal access token
 2. Pass token + backup directory to BackHub
