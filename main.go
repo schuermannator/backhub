@@ -56,7 +56,7 @@ func main() {
 }
 
 func saveAll(repos map[string]string, token string, username string, archive_path string, beQuiet bool) {
-	maxGo := 200 // avoid having too many files open
+	maxGo := 20 // avoid having too many files open
 	limiter := make(chan struct{}, maxGo)
 	if beQuiet {
 		// archive user's repos
